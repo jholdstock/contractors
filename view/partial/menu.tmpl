@@ -1,0 +1,9 @@
+<ul class="nav navbar-nav navbar-right">
+	{{if .LoggedIn}}
+		{{if .Admin}}
+			<li><a href="{{.BaseURI}}users">Users</a></li>
+		{{end}}
+		<li><a href="{{.BaseURI}}invoice">Invoices</a></li>
+		<li><a href="{{.BaseURI}}logout">Logout</a></li>
+	{{end}}
+</ul>

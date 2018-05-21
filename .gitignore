@@ -1,0 +1,11 @@
+# Folders
+/vendor/
+/node_modules/
+
+# OS Files
+.DS_Store
+thumbs.db
+
+env.json
+contractors
+asset/dynamic/favicon/data.json

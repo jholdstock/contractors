@@ -1,0 +1,23 @@
+{{define "title"}}Users{{end}}
+{{define "head"}}{{end}}
+{{define "content"}}
+	<div class="page-header">
+		<h1>{{template "title" .}}</h1>
+	</div>
+	
+	{{range $n := .items}}
+		<div class="panel panel-default">
+			<div class="panel-body">
+				<p>First Name: {{.FirstName}}</p>
+				<p>Last Name: {{.LastName}}</p>
+				<p>Email: {{.Email}}</p>
+				<p>Admin: {{if .Admin}} Yes {{else}} No {{end}}</p>
+			</div>
+		</div>
+	{{end}}
+	
+	{{PAGINATION .pagination .}}
+	
+	{{template "footer" .}}
+{{end}}
+{{define "foot"}}{{end}}
