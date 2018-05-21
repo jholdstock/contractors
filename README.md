@@ -1,3 +1,24 @@
+# Purpose
+
+The purpose of the code in this repo is to assess the suitability of the [blue-jay/blueprint](https://blue-jay.github.io/) set of template for creating a Contractors Portal for Decred. 
+
+This sample code uses the following features from blueprint:
+
+- html templating
+- csrf protection
+- password encryption and secure login
+- user sessions
+- mysql integration
+- web asset pre-processing using node.js
+- logging
+
+The code demonstrates some basic features we would need for a DCR Contractor Portal:
+
+- Admin users can view the list of existing registered users
+- All users have the ability to log in and create/edit invoices
+
+It should be noted that implementing these features took a very short time, and most of the effort invested into this project so far has been to pull in third party dependecies and to trim some of the fat from the template project. This is nowhere near a usable product right now.
+
 # Quick Setup
 
 - Clone this repo
