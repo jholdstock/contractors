@@ -1,6 +1,6 @@
 # Purpose
 
-The purpose of the code in this repo is to assess the suitability of the [blue-jay/blueprint](https://blue-jay.github.io/) set of template for creating a Contractors Portal for Decred. 
+The purpose of the code in this repo is to assess the suitability of the [blue-jay/blueprint](https://blue-jay.github.io/) set of tools and template for creating a Contractors Portal for Decred. 
 
 This sample code uses the following features from blueprint:
 
